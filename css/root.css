@@ -3,6 +3,7 @@
 body, html {
     font-family: var(--font-main);
     line-height: 1.3;
+    color: var(--dark1);
 }
 
 :root {
@@ -24,4 +25,13 @@ body, html {
     --red0: #F00000;
     --red1: #ff3b30;
     --red2: #dc3545;
+}
+
+a.link-default {
+    color: inherit;
+    text-decoration: none;
+}
+
+.p-inline {
+    padding-inline: 8%;
 }
