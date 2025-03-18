@@ -28,3 +28,11 @@
     padding-top: 20px;
 }
 
+#logo {
+    font-weight: var(--font-bold);
+}
+
+.logo-dot {
+    font-size: 4rem;
+    color: var(--yellow);
+}
