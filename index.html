@@ -18,7 +18,9 @@
             </div>
             <div class="header-info--info">
                 <span class="border-end">
-                    <i class="fa-solid fa-location-dot"></i> Benfica
+                    <a title="Localização" href="#" class="link">
+                        <i class="fa-solid fa-location-dot"></i> Benfica
+                    </a>
                 </span>
                 <span>
                     <a href="#" class="link"><i class="fa-regular fa-user"></i> Faça login ou Registre-se</a>
@@ -30,13 +32,24 @@
                 <a href="index.html" id="logo" class="link-default">
                     <h1>ElectoK<span class="logo-dot">.</span></h1>
                 </a>
-                <form action="" method="post">
+                <form id="form-search" action="" method="post">
                     <input type="search" name="search" id="search" placeholder="Buscar por..." />
                     <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
-                <div id="icons-main">
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-solid fa-bag-shopping"></i>
+                <div id="icons-main" class="d-flex">
+                    <a title="Favoritos" href="" class="position-relative">
+                        <i class="fa-regular fa-heart"></i>
+                        <span id="icon-value" class="position-absolute border rounded-circle">
+                          <span class="">10</span>
+                        </span>
+                    </a>
+                    
+                    <a title="Carrinho" href="" class="position-relative">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span id="icon-value" class="position-absolute border rounded-circle">
+                          <span class="">10</span>
+                        </span>
+                    </a>
                 </div>
             </div>
             <div id="header-main--botton"></div>
