@@ -1,7 +1,11 @@
 /* Header
 --------------------------------------------------*/
+#header-mobile {
+    display: none;
+}
 
 #header-info {
+    width: 100%;
     padding: 4px 8%;
     border-bottom: 1px solid #cccccc88;
 }
@@ -182,6 +186,46 @@
     font-weight: var(--font-bold);
 }
 
+/* header-mobile */
+#header-mobile {
+    padding: 0px 4%;
+    height: 50px;
+    overflow: hidden;
+    background-color: var(--yellow);
+}
+
+#header-mobile-left #logo {
+}
+
+#header-mobile-left #logo h1 {
+    font-size: 1.4rem;
+    margin-top: 11px;
+}
+
+#header-mobile-left #logo .logo-dot {
+    color: var(--dark2);
+}
+
+#header-mobile-rigth ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+#header-mobile-rigth ul li a {
+    padding: 10px;
+    font-size: 1rem;
+    color: var(--dark2);
+    text-decoration: none;
+}
+
+#header-mobile-rigth ul li a #icon-value {
+    top: 20px;
+    left: 20px;
+    color: var(--yellow);
+    background-color: var(--dark2);
+}
 /* Banner
 --------------------------------------------------*/
 #carrocel-banner #carouselExampleCaptions {
