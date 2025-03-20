@@ -38,7 +38,7 @@
 #form-search input {
     padding: 10px 20px;
     height: 38px;
-    width: 445px;
+    width: 400px;
     outline: none;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -124,6 +124,13 @@
     }
 }
 
+#header-main--botton {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+
 #btn-categories {
     padding: 8px 15px;
     border: none;
@@ -158,6 +165,21 @@
     padding-inline: 8px;
     padding-inline: 8px;
     font-size: 14px;
+}
+
+#menu-inicial .nav-link {
+    font-weight: var(--font-bold);
+    color: var(--dark2);
+}
+
+#menu-inicial .nav-link:hover {
+    color: var(--yellow);
+    opacity: .6;
+}
+
+#propa {
+    font-size: .9rem;
+    font-weight: var(--font-bold);
 }
 
 /* Banner
