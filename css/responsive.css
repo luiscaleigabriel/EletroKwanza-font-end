@@ -1,10 +1,5 @@
 /* Header
 --------------------------------------------------*/
 @media screen and (max-width: 900px) {
-    #header {
-        display: none;
-    }
-    #header-mobile {
-        display: block;
-    }
+    
 }

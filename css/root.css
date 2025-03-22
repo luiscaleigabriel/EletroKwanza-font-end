@@ -27,11 +27,3 @@ body, html {
     --red2: #dc3545;
 }
 
-a.link-default {
-    color: inherit;
-    text-decoration: none;
-}
-
-.p-inline {
-    padding-inline: 8%;
-}
