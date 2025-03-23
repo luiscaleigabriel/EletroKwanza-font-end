@@ -3283,7 +3283,7 @@ ol {
   width: 140px;
 }
 
-.single-product .product-image .btn-add-to-cart {
+.single-product .product-image .btn-add-to-cart, div.price .btn-add-to-cart {
   font-size: 18px;
   position: relative;
   top: 2px;
@@ -3324,13 +3324,13 @@ ol {
   color: #081828;
 }
 
-.single-product #btn-add-to-cart {
+#btn-add-to-cart {
   padding: 10px;
   border-radius: 50%;
   background-color: #0076b53a;
 }
 
-.single-product #btn-add-to-cart:hover {
+#btn-add-to-cart:hover {
   padding: 10px;
   border-radius: 50%;
   color: #fff;
